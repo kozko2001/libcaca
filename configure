@@ -16718,7 +16718,7 @@ if ac_fn_c_try_compile "$LINENO"; then :
   { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
 $as_echo "yes" >&6; }
 
-$as_echo "#define HAVE_FLDLN2 1" >>confdefs.h
+#$as_echo "#define HAVE_FLDLN2 1" >>confdefs.h
 
 else
   { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
@@ -17713,17 +17713,17 @@ else
 fi
 
 
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking valid output drivers" >&5
-$as_echo_n "checking valid output drivers... " >&6; }
-if test -z "${CACA_DRIVERS}"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-  as_fn_error $? "no output drivers were selected!" "$LINENO" 5
-else
-  CACA_DRIVERS="${CACA_DRIVERS# *}"
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: ${CACA_DRIVERS}" >&5
-$as_echo "${CACA_DRIVERS}" >&6; }
-fi
+#{ $as_echo "$as_me:${as_lineno-$LINENO}: checking valid output drivers" >&5
+#$as_echo_n "checking valid output drivers... " >&6; }
+#if test -z "${CACA_DRIVERS}"; then
+#  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
+#$as_echo "no" >&6; }
+#  as_fn_error $? "no output drivers were selected!" "$LINENO" 5
+#else
+#  CACA_DRIVERS="${CACA_DRIVERS# *}"
+#  { $as_echo "$as_me:${as_lineno-$LINENO}: result: ${CACA_DRIVERS}" >&5
+#$as_echo "${CACA_DRIVERS}" >&6; }
+#fi
 
 
 

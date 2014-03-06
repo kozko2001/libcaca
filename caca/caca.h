@@ -683,7 +683,7 @@ typedef struct cucul_buffer cucul_buffer_t;
 #       define CACA_DEPRECATED
 #   endif
 
-#   if defined __GNUC__ && __GNUC__ > 3
+#   if !defined APPLE && defined GNUC && GNUC > 3
 #       define CACA_ALIAS(x) __attribute__ ((weak, alias(#x)))
 #   else
 #       define CACA_ALIAS(x)
